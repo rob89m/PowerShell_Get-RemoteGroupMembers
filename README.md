@@ -2,6 +2,7 @@
 Allow easy retrieval of local group members on remote devices
 
 This was written to address the issue described on https://github.com/PowerShell/PowerShell/issues/2996.
+
 MSFT are aware of this issue, but have closed it without a fix, citing no reason.
 
 The script uses ADSI to fetch all members of a local group on a remote device.
