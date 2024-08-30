@@ -1,4 +1,4 @@
-Function Get-RemoteDeviceGroupMembers {
+Function Get-RemoteGroupMembers {
     <#
         .DESCRIPTION
         This was written to address the issue described on https://github.com/PowerShell/PowerShell/issues/2996.
@@ -11,10 +11,10 @@ Function Get-RemoteDeviceGroupMembers {
 
         .EXAMPLE
         This will store the output of the function in the $results variable
-        $results = Get-RemoteDeviceGroupMembers -Computer Computer01.contoso.com -Group Administrators
+        $results = Get-RemoteGroupMembers -Computer Computer01.contoso.com -Group Administrators
 
         This will output the results of the function straight to console       
-        Get-RemoteDeviceGroupMembers -Computer Computer01.contoso.com -Group Administrators
+        Get-RemoteGroupMembers -Computer Computer01.contoso.com -Group Administrators
 
         .OUTPUTS
         System.Management.Automation.PSCustomObject
